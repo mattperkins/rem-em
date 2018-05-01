@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS rems and ems</title>
+    <style>
+        :root{
+            font-size: 26px;
+            }
+            .wrapper{
+            font-size: 10.5em;
+            }
+
+            p{
+            font-size: 1rem; 
+            }
+            /* if the above was 'em' it would inherit from .wrapper not :root */
+    </style>
+</head>
+<body>
+     <div class="wrapper">
+        <p>Hello</p>
+    </div>
+</body>
+</html>
